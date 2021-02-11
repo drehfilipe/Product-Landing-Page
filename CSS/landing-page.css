@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+#nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#video{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: auto;
+}
