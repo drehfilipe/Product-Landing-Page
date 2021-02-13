@@ -1,19 +1,55 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
     margin: 0;
 }
 
+/*  Page header */
+#header-img{
+    position: fixed;
+    max-width: 200px;
+    height: auto;
+    padding: 20px 30px;
+}
+
+nav{
+    top: 2rem; /* Set navbar at the top of the page */
+    position: fixed; /* Set navbar to fixed while scrolling */
+    width: 100%;
+}
+
+#nav-bar a{
+    padding: 20px 30px; /* 20px from the top/bottom and 30px to the right/left */
+}
+
+#nav-bar li{
+    list-style: none;
+}
+
 #nav-bar ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 #video{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
     width: 100%;
     margin: auto;
+}
+
+/* Page body*/
+#form{
+    width: 50%;
+    justify-content: center;
+}
+
+
+.form-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
 }
