@@ -7,49 +7,106 @@ body{
     margin: 0;
 }
 
+#menu-container{ /* logo and menu */
+    background-color:white;
+    height: 100px;
+}
+
 /*  Page header */
 #header-img{
     position: fixed;
     max-width: 200px;
     height: auto;
-    padding: 20px 30px;
+    padding: 30px 40px;
+    margin-left: 100px;
 }
 
 nav{
-    top: 2rem; /* Set navbar at the top of the page */
+    top: 2.5rem;
     position: fixed; /* Set navbar to fixed while scrolling */
     width: 100%;
 }
 
 #nav-bar a{
-    padding: 20px 30px; /* 20px from the top/bottom and 30px to the right/left */
+    padding: 30px 40px; /* 20px from the top/bottom and 30px to the right/left */
+    text-decoration: none;
+    color: black;
 }
 
 #nav-bar li{
+    font-size: 16px;
+    text-transform: uppercase;
     list-style: none;
 }
 
 #nav-bar ul{
     display: flex;
     justify-content: flex-end;
+    margin-right: 100px;
 }
 
 #video{
-    padding-top: 100px;
     padding-bottom: 50px;
     width: 100%;
+    height: 30rem;
+    object-fit: cover;
     margin: auto;
 }
 
 /* Page body*/
+
+/* Form start */
 #form{
-    width: 50%;
-    justify-content: center;
+    position: relative;
+    bottom: 30px;
 }
 
+#email-label{
+    margin: auto;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#email, #submit{
+    margin: auto; /* Set margin to auto will center the form */
+    width: 30%;
+    max-width: 500px;
+    min-width: 150px;
+    padding: 10px 10px 10px;
+}
 
 .form-content {
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    padding: 7px; /* Set space between elements */
 }
+/* Form End */
+
+/* Features */
+
+#features{
+    margin: auto;
+}
+
+#features-title{
+    text-align: center;
+    padding: 20px;
+}
+
+.icon {
+    float: left;
+    font-size: 50px;
+    
+}
+
+.feature-text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#features-container{
+    padding: 10px 40px;
+    margin-left: 100px;  
+}
+
