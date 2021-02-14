@@ -84,29 +84,105 @@ nav{
 
 /* Features */
 
-#features{
-    margin: auto;
-}
-
 #features-title{
     text-align: center;
     padding: 20px;
 }
 
+#features{
+    margin: auto;
+    padding-bottom: 40px;
+}
+
 .icon {
+    line-height: 2;
     float: left;
-    font-size: 50px;
-    
+    font-size: 45px;
 }
 
 .feature-text{
     display: flex;
     flex-direction: column;
+    padding-left: 40px;
 }
 
 
 #features-container{
-    padding: 10px 40px;
-    margin-left: 100px;  
+    max-width: 900px;
+    margin: auto;
+    padding: 10px 90px;
 }
 
+/* Features End */
+/* Pricing Start */
+
+#pricing-title{
+    text-align: center;
+}
+
+#pricing{
+    padding-bottom: 30px;
+}
+
+#pricing-container{
+    margin: auto;
+    max-width: 900px;
+    padding: 40px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#first-card, #second-card{
+    margin: auto;
+    width: 200px;
+    height: 250px;
+    background-color: coral;
+    border-color: chocolate;
+    border-style: solid;
+}
+
+.card-text{
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-text p{
+    font-size: 12px;
+}
+
+.card-submmit{
+    
+    max-width: 500px;
+    min-width: 120px;
+    padding: 10px;
+}
+
+/* Pricing End */
+
+/* Responsive */
+
+@media screen and (max-width: 720px){
+   #pricing-container{
+        flex-direction: column;
+        row-gap: 40px;
+
+   }
+   .icon{
+       text-align: center;
+       float: none;
+       position: relative;
+       line-height: 0;
+       vertical-align: middle;
+       top: 20px;
+   }
+   
+   .feature-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 10px;
+        padding: 10px;
+    }
+}
