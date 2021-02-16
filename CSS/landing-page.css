@@ -117,7 +117,7 @@ body{
 
 #features{
     margin: auto;
-    padding: 30px;
+    padding-bottom: 50px;
 }
 
 .icon {
@@ -169,7 +169,7 @@ body{
 
 #pricing{
     background-color: #cca68f;
-    padding: 30px;
+    padding: 50px;
 }
 
 #pricing-container{
@@ -215,11 +215,6 @@ body{
 /* Responsive */
 
 @media screen and (max-width: 820px){
-   #pricing-container{
-        flex-direction: column;
-        row-gap: 40px;
-        padding: 40px 90px;
-   }
    .icon{
        text-align: center;
        float: none;
@@ -273,3 +268,10 @@ body{
      }
  
  }
+
+ @media screen and (max-width: 900px){
+     #pricing-container{
+         flex-direction: column;
+         row-gap: 40px;
+         padding: 40px 90px;
+    }
