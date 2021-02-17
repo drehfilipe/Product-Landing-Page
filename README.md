@@ -1,7 +1,7 @@
 # Responsive Web Design Projects - Product Landing Page
 
 ## Introduction
-### Stock images service
+##### Stock images service
 > The project aim is to fulfill all the user stories from freeCodecamp project Responsive Web Design Projects - Product Landing Page. This is my third project and part of my learning how to code journey.
 
 ## Technologies
